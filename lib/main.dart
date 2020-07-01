@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromRGBO(224, 224, 224, 1),
         appBar: AppBar(
           title: Text(
             'Calculator',
             style: TextStyle(color: Colors.black),
           ),
-          backgroundColor: Colors.lightGreen,
+          backgroundColor: Color.fromRGBO(180, 180, 180, 1),
         ),
         body: RunApp());
   }
@@ -87,7 +87,7 @@ class _RunAppState extends State<RunApp> {
             margin: EdgeInsets.all(10),
             height: 180,
             width: double.infinity,
-            color: Colors.orange,
+            color: Color.fromRGBO(13, 127, 0, 0.3),
             child: Text(x,
                 style: TextStyle(
                   fontSize: 48,
@@ -111,12 +111,15 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.black,
+                          color: Colors.orange,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
                           'AC',
-                          style: TextStyle(fontSize: 30, color: Colors.orange),
+                          style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
@@ -132,7 +135,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -153,7 +156,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -174,7 +177,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -221,7 +224,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Icon(Icons.backspace,
@@ -240,7 +243,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -261,7 +264,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -282,7 +285,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -314,7 +317,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -335,7 +338,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -356,7 +359,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -377,7 +380,7 @@ class _RunAppState extends State<RunApp> {
                       width: 50,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -409,7 +412,7 @@ class _RunAppState extends State<RunApp> {
                       width: 60,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -437,7 +440,7 @@ class _RunAppState extends State<RunApp> {
                       width: 60,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -465,7 +468,7 @@ class _RunAppState extends State<RunApp> {
                       width: 60,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -493,7 +496,7 @@ class _RunAppState extends State<RunApp> {
                       width: 60,
                       height: 50,
                       decoration: BoxDecoration(
-                          color: Colors.orange,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                         child: Text(
@@ -519,7 +522,7 @@ class _RunAppState extends State<RunApp> {
                 width: 50,
                 height: 50,
                 decoration: BoxDecoration(
-                    color: Colors.orange,
+                    color: Colors.white,
                     borderRadius: BorderRadius.circular(10.0)),
                 child: Center(
                   child: Text(
@@ -537,7 +540,7 @@ class _RunAppState extends State<RunApp> {
                 width: 50,
                 height: 50,
                 decoration: BoxDecoration(
-                    color: Colors.orange,
+                    color: Colors.white,
                     borderRadius: BorderRadius.circular(10.0)),
                 child: Center(
                   child: Text(
@@ -559,7 +562,7 @@ class _RunAppState extends State<RunApp> {
                 width: 150,
                 height: 50,
                 decoration: BoxDecoration(
-                    color: Colors.orange,
+                    color: Colors.white,
                     borderRadius: BorderRadius.circular(10.0)),
                 child: Center(
                   child: Text(
